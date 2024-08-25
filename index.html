@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+  .container{
+    width: 748px;
+    height: 725px;
+    background-color: green;
+  
+  }
+
+  .c{
+    display: grid;
+    grid-template-columns: 320px 428px;
+    grid-template-rows: 400px;
+  }
+
+  .first{
+   background-color:#E72F24;
+   border-right: 9px solid black;
+   border-bottom: 9px solid;
+  }
+
+  .second{
+    background-color:  #F0F1EC;
+    border-bottom: 9px solid;
+  }
+
+  .cont{
+    height: 295px;
+    width: 748px;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 320px 378px 50px;
+    grid-template-rows: 304px;
+
+  }
+
+  .third{
+    background-color:  #F0F1EC;
+    border-right: 9px solid;
+    border-bottom: 9px solid;
+  }
+  
+  .fourth{
+    background-color:  #F0F1EC;
+    border-right: 9px solid;
+    border-bottom: 9px solid ;
+  }
+
+  .cont2{
+    background-color: #F0F1EC;
+    display: grid;
+    grid-template-rows: 130px 155px;
+  }
+
+  .fifth{
+    background-color: #004592;
+    border-bottom: 10px solid black;
+  }
+  
+  .fifth1{
+    background-color: #F0F1EC;
+  }
+  
+  .cont3{
+    height: 30px;
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 320px 378px 50px;
+  }
+  
+  .sixth{
+    background-color: #F0F1EC;
+    border-top: 9px solid;
+    border-right: 9px solid;
+  }
+
+  .cont4{
+    border-top: 9px solid;
+    border-right: 9px solid;
+    background-color: #232629;
+    display: grid;
+    grid-template-columns: 198px 153px;
+  }
+
+  .seventh{
+    background-color: #F9D01E;
+    border-right: 9px solid;
+  }
+
+  .eighth{
+   background-color: #232629;
+  }
+
+  .nineth{
+    background-color: #F0F1EC;
+  }
+   
+  
+
+  
+
+  
+
+
+
+  
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+<div class="container"> 
+  <div class="c">
+<div class="first"></div>
+<div class="second"></div>
+  </div>
+<div class="cont">
+   <div class="third"></div>
+   <div class="fourth"></div>
+ <div class="cont2">
+   <div class="fifth"></div>
+   <div class="fifth1"></div>
+ </div>
+</div>
+<div class="cont3">
+ <div class="sixth"></div>
+  <div class="cont4">
+ <div class="seventh"></div>
+ <div class="eighth"></div>
+</div>
+<div class="nineth"></div>
+</div>
+</div>
+</body>
+
+</html>
